@@ -8,5 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: npm publish --access public
+        working-directory: ../
         env:
           NODE_AUTH_TOKEN: '${{secrets.npm_token}}'
