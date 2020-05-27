@@ -7,7 +7,6 @@ jobs:
   publish-npm:
     runs-on: ubuntu-latest
     steps:
-      - working-directory: ./
       - run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: '${{secrets.npm_token}}'
