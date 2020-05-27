@@ -1,8 +1,5 @@
 name: NPM Publish
-on:
-  push:
-    tags:
-      - v*
+on: [push]
 jobs:
   publish-npm:
     runs-on: ubuntu-latest
