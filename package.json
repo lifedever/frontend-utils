@@ -1,5 +1,5 @@
 {
-    "name": "frontend-utils",
+    "name": "@gefangshuai/frontend-utils",
     "version": "1.0.0",
     "description": "包含了一些常用的js工具方法及less样式",
     "main": "",
