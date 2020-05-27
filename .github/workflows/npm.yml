@@ -5,6 +5,7 @@ on:
       - v*
 jobs:
   publish-npm:
+    runs-on: ubuntu-latest
     steps:
       - run: npm publish --access public
         env:
