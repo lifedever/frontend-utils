@@ -1,5 +1,4 @@
 name: NPM Publish
-working-directory: ./
 on:
   push:
     tags:
@@ -8,6 +7,7 @@ jobs:
   publish-npm:
     runs-on: ubuntu-latest
     steps:
-      - uses: JS-DevTools/npm-publish@v1
-        with:
-          token: '${{secrets.npm_token}}'
+      - working-directory: ./
+      - run: npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: '${{secrets.npm_token}}'
