@@ -1,10 +1,8 @@
 {
     "name": "frontend-utils",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "方便前端开发的资源类库",
     "author": "gefangshuai",
     "license": "MIT",
-    "dependencies": {
-        
-    }
+    "dependencies": {}
 }
