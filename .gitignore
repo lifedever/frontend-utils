@@ -1,0 +1,4 @@
+deploy.sh
+.idea
+*.iml
+.DS_Store
