@@ -4,5 +4,21 @@
     "description": "方便前端开发的资源类库",
     "author": "gefangshuai",
     "license": "MIT",
-    "dependencies": {}
+    "dependencies": {},
+    "main": "''",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/gefangshuai/frontend-utils.git"
+    },
+    "keywords": [
+        "javascript",
+        "less"
+    ],
+    "bugs": {
+        "url": "https://github.com/gefangshuai/frontend-utils/issues"
+    },
+    "homepage": "https://github.com/gefangshuai/frontend-utils#readme"
 }

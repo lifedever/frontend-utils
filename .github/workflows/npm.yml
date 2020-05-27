@@ -1,0 +1,10 @@
+name: NPM Publish
+on:
+  push:
+    tags:
+      - v*
+jobs:
+  publish-npm:
+    run: npm publish
+      env:
+        NODE_AUTH_TOKEN: '${{secrets.npm_token}}'
