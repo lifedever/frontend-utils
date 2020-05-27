@@ -1,5 +1,7 @@
 Front Utils
 ----
+[![npm version](https://badge.fury.io/js/%40gefangshuai%2Ffrontend-utils.svg)](https://badge.fury.io/js/%40gefangshuai%2Ffrontend-utils)
+
 包含了一些常用的js工具方法及less样式
 
 # Usage
