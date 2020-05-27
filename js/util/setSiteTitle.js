@@ -2,6 +2,7 @@
  * 设置网站标题
  * @param title
  * @param reset
+ * @param split
  */
 const setSiteTitle = (title, reset = false, split = '|') => {
     if (reset) {
