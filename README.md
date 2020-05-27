@@ -2,7 +2,19 @@ Front Utils
 ----
 包含了一些常用的js工具方法及less样式
 
-
+# Usage
+## 全部引入
+```javascript
+import jsUtil from "./js";
+```
+## 部分引入
+```javascript
+import objectUtil from "./js/object";
+```
+或
+```javascript
+import checkEmail from "./js/validator/checkEmail";
+```
 # JS
 ## util
 - appendPath: 拼接路径，自动判断被拼接的路径是否已'/'结尾
