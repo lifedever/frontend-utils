@@ -1,4 +1,4 @@
 import jsUtil from "./js";
 
 
-jsUtil.http.getErrorCode()
+console.log(jsUtil.validator.checkEmail("aaa@163.com"))
