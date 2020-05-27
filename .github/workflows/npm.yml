@@ -5,6 +5,7 @@ on:
       - v*
 jobs:
   publish-npm:
-    run: npm publish
-      env:
-        NODE_AUTH_TOKEN: '${{secrets.npm_token}}'
+    steps:
+      - run: npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: '${{secrets.npm_token}}'
