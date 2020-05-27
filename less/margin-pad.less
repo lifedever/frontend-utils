@@ -1,0 +1,46 @@
+.generate-margin-pad (@px, @name1, @name2, @name...) {
+    .@{name1}-left@{name} {
+            @{name2}-left: @px;
+    }
+    .@{name1}-right@{name} {
+            @{name2}-right: @px;
+    }
+    .@{name1}-top@{name} {
+            @{name2}-top: @px;
+    }
+    .@{name1}-bottom@{name} {
+            @{name2}-bottom: @px;
+    }
+}
+
+@xs: 5px;
+@sm: 10px;
+@base: 15px;
+@lg: 35px;
+@lgg: 50px;
+.generate-margin-pad(@xs, margin, margin, -xs);
+.generate-margin-pad(@sm, margin, margin, -sm);
+.generate-margin-pad(@base, margin, margin);
+.generate-margin-pad(@lg, margin, margin, -lg);
+.generate-margin-pad(@lgg, margin, margin, -lgg);
+
+.generate-margin-pad(@xs, mar, margin, -xs);
+.generate-margin-pad(@sm, mar, margin, -sm);
+.generate-margin-pad(@base, mar, margin);
+.generate-margin-pad(@lg, mar, margin, -lg);
+.generate-margin-pad(@lgg, mar, margin, -lgg);
+
+.generate-margin-pad(@xs, padding, padding, -xs);
+.generate-margin-pad(@sm, padding, padding, -sm);
+.generate-margin-pad(@base, padding, padding);
+.generate-margin-pad(@lg, padding, padding, -lg);
+.generate-margin-pad(@lgg, padding, padding, -lgg);
+
+.generate-margin-pad(@xs, pad, padding, -xs);
+.generate-margin-pad(@sm, pad, padding, -sm);
+.generate-margin-pad(@base, pad, padding);
+.generate-margin-pad(@lg, pad, padding, -lg);
+.generate-margin-pad(@lgg, pad, padding, -lgg);
+
+
+// run command:  "lessc ./margin-pad.less ./margin-pad.css" to general the css file
