@@ -1,11 +1,8 @@
 {
     "name": "frontend-utils",
     "version": "1.0.0",
-    "description": "方便前端开发的资源类库",
-    "author": "gefangshuai",
-    "license": "MIT",
-    "dependencies": {},
-    "main": "''",
+    "description": "包含了一些常用的js工具方法及less样式",
+    "main": "",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
@@ -15,8 +12,11 @@
     },
     "keywords": [
         "javascript",
-        "less"
+        "less",
+        "css"
     ],
+    "author": "gefangshuai",
+    "license": "MIT",
     "bugs": {
         "url": "https://github.com/gefangshuai/frontend-utils/issues"
     },
