@@ -46,13 +46,13 @@ import checkEmail from "./js/validator/checkEmail";
 ## Margin
 - mar-{position}-xs: 5px
 - mar-{position}-sm: 10px
-- mar-{position}: 15
+- mar-{position}: 15px
 - mar-{position}-lg: 35px
 - mar-{position}-lgg: 50px
 
 ## Padding
 - pad-{position}-xs: 5px
 - pad-{position}-sm: 10px
-- pad-{position}: 15
+- pad-{position}: 15px
 - pad-{position}-lg: 35px
 - pad-{position}-lgg: 50px
