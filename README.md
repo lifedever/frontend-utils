@@ -5,17 +5,26 @@ Front Utils
 包含了一些常用的js工具方法及less样式
 
 # Usage
+## Install
+```shell script
+yarn add @gefangshuai/frontend-utils
+```
+or
+```shell script
+npm i @gefangshuai/frontend-utils
+```
+
 ## 全部引入
 ```javascript
-import jsUtil from "./js";
+import jsUtil from "@gefangshuai/frontend-utils/js";
 ```
 ## 部分引入
 ```javascript
-import objectUtil from "./js/object";
+import objectUtil from "@gefangshuai/frontend-utils/js/object";
 ```
 或
 ```javascript
-import checkEmail from "./js/validator/checkEmail";
+import checkEmail from "@gefangshuai/frontend-utils/js/validator/checkEmail";
 ```
 # JS
 ## util
