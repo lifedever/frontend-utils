@@ -3,11 +3,13 @@ import isWeChat from "./isWeChat";
 import setSiteTitle from "./setSiteTitle";
 import sleep from "./sleep";
 import appendPath from "./appendPath";
+import matchLocationProtocol from "./matchLocationProtocol";
 
 export default {
     delHtmlTag,
     isWeChat,
     setSiteTitle,
     sleep,
-    appendPath
+    appendPath,
+    matchLocationProtocol,
 }
