@@ -1,6 +1,6 @@
 {
     "name": "@gefangshuai/frontend-utils",
-    "version": "1.0.13",
+    "version": "1.0.14",
     "description": "包含了一些常用的js工具方法及less样式",
     "main": "",
     "scripts": {
