@@ -6,6 +6,8 @@ import appendPath from "./appendPath";
 import matchLocationProtocol from "./matchLocationProtocol";
 import clearObj from "./clearObj";
 import toFormData from "./toFormData";
+import randomStr from "./randomStr";
+import getUUID from "./getUUID";
 
 export default {
     delHtmlTag,
@@ -16,4 +18,6 @@ export default {
     matchLocationProtocol,
     clearObj,
     toFormData,
+    randomStr,
+    getUUID,
 }
