@@ -4,6 +4,8 @@ import setSiteTitle from "./setSiteTitle";
 import sleep from "./sleep";
 import appendPath from "./appendPath";
 import matchLocationProtocol from "./matchLocationProtocol";
+import clearObj from "./clearObj";
+import toFormData from "./toFormData";
 
 export default {
     delHtmlTag,
@@ -12,4 +14,6 @@ export default {
     sleep,
     appendPath,
     matchLocationProtocol,
+    clearObj,
+    toFormData,
 }
