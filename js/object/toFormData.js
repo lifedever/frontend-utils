@@ -3,8 +3,8 @@
  * @param object
  * @returns {FormData}
  */
-import {isUndefined} from "./isUndefined";
-import {isNull} from "./isNull";
+import isUndefined from "./isUndefined";
+import isNull from "./isNull";
 
 const toFormData = (object) => {
     let formData = new FormData()
