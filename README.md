@@ -39,6 +39,8 @@ import checkEmail from "@gefangshuai/frontend-utils/js/validator/checkEmail";
 - toArray: 将object转换为数组
 - toFormData: 将对象转换成表单FormData
 - toQueryString: 将对象转换成请求的query字符串
+- isUndefined: 判断对象是否为undefined
+- isNull: 判断对象是否为null
 
 ## list
 - oneOf: 校验元素是否为数组中的一员
