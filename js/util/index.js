@@ -5,7 +5,6 @@ import sleep from "./sleep";
 import appendPath from "./appendPath";
 import matchLocationProtocol from "./matchLocationProtocol";
 import clearObj from "./clearObj";
-import toFormData from "./toFormData";
 import randomStr from "./randomStr";
 import getUUID from "./getUUID";
 
@@ -17,7 +16,6 @@ export default {
     appendPath,
     matchLocationProtocol,
     clearObj,
-    toFormData,
     randomStr,
     getUUID,
 }
