@@ -3,4 +3,4 @@
  * @param object
  * @returns {boolean}
  */
-export const isUndefined = object => typeof (object) === "undefined"
+export default object => typeof (object) === "undefined"

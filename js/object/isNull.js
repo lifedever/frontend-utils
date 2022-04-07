@@ -1,1 +1,1 @@
-export const isNull = object => object === null
+export default object => object === null
