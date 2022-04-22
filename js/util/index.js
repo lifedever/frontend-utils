@@ -4,7 +4,6 @@ import setSiteTitle from "./setSiteTitle";
 import sleep from "./sleep";
 import appendPath from "./appendPath";
 import matchLocationProtocol from "./matchLocationProtocol";
-import clearObj from "./clearObj";
 import randomStr from "./randomStr";
 import getUUID from "./getUUID";
 
