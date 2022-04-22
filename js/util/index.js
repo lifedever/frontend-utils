@@ -14,7 +14,6 @@ export default {
     sleep,
     appendPath,
     matchLocationProtocol,
-    clearObj,
     randomStr,
     getUUID,
 }
